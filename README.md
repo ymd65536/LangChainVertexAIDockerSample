@@ -1,0 +1,2 @@
+# LangChainVertexAIDockerSample
+LangChainコンテナを作ってその中でVertexAIを起動する
