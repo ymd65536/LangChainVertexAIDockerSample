@@ -1,4 +1,4 @@
-FROM python:3.9-slim@sha256:71649ef260b721aa6a844ae796fc117b606bbc5faff4fcad18b1c73526ad0235 as builder
+FROM python:3.10-slim-bullseye@sha256:71649ef260b721aa6a844ae796fc117b606bbc5faff4fcad18b1c73526ad0235 as builder
 
 ENV APP_HOME /app
 WORKDIR $APP_HOME
