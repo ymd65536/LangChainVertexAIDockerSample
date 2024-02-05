@@ -1,0 +1,9 @@
+FROM python:3.9-slim@sha256:71649ef260b721aa6a844ae796fc117b606bbc5faff4fcad18b1c73526ad0235 as builder
+
+ENV APP_HOME /app
+WORKDIR $APP_HOME
+COPY . ./
+
+RUN pip install --upgrade pip && pip install --user --no-cache-dir -r requirements.txt
+
+CMD ["python","app.py"]

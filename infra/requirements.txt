@@ -1,0 +1,13 @@
+urllib3==1.26.18
+unstructured==0.6.6
+tabulate==0.9.0
+pdf2image==1.16.3
+pytesseract==0.3.10
+# chromadb==0.3.23
+faiss-gpu==1.7.2
+tiktoken==0.4.0
+langchain-google-vertexai==0.0.3
+urllib3==1.26.18
+langchain==0.1.0
+beautifulsoup4==4.12.2
+slack-bolt==1.18.0
